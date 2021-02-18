@@ -13,6 +13,19 @@
   }
 }
 
+
+
+h1 {
+  color: #e7e7e7;
+  font-family: Helvetica, 'Open Sans', Arial, sans-serif;
+  font-weight: bold;
+  background: #044f50;
+  border: 2px solid #000000;
+  margin-top: 10px;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +39,59 @@
 
 .App-link {
   color: #61dafb;
+}
+.button {
+  border: none;
+  outline: none;
+  font-size: 11px;
+  font-family: "Quicksand", sans-serif;
+  color: #000000;
+  padding: 3px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #441b1b;
+  background-color: transparent;
+}
+
+.buttonCreate {
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+  color: #044f50;
+  padding: 5px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #441b1b;
+  background-color: transparent;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 10px;
+  cursor: pointer;
+}
+
+#TableStyle {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#TableStyle td, #TableStyle th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#TableStyle tr:nth-child(even){background-color: #f2f2f2;}
+
+#TableStyle tr:hover {background-color: #ddd;}
+
+#TableStyle th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #a9c4aa;
+  color: white;
 }
 
 @keyframes App-logo-spin {
